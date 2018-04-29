@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="About"
+      android:textColor="@android:color/black"
+      android:textSize="18sp"
+      android:textStyle="bold"/>
+
+  <TextView
+      android:layout_marginBottom="5dp"
+      android:id="@+id/tv_subject"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:lineSpacingExtra="1.2sp"
+      android:text="Đề tài thực hiện : Ứng dụng đọc báo thông qua RSS"
+      android:textSize="16sp"/>
+
+  <TextView
+      android:layout_marginBottom="5dp"
+      android:id="@+id/tv_studens_execution"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:lineSpacingExtra="1.2sp"
+      android:text="Sinh viên thực hiện :
+       \\n + Phạm Thế Anh - 15110009
+        + Lê Quang Sơn - 15110010"
+      android:textSize="16sp"/>
+
+  <TextView
+      android:layout_marginBottom="5dp"
+      android:id="@+id/tv_description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:lineSpacingExtra="1.2sp"
+      android:text="Miêu tả : Ứng dụng đọc tin tức về bóng đá có nguồn từ page Bongda.com.vn"
+      android:textSize="16sp"/>
+
+  <TextView
+      android:id="@+id/tv_version"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:lineSpacingExtra="1.2sp"
+      android:text="Version : 1.0"
+      android:textSize="16sp"/>
+</LinearLayout>

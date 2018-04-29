@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true">
+
+  <RelativeLayout
+      android:background="@drawable/ripple_effect"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/imv_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/imv_image"
+        android:textColor="@android:color/black"
+        android:text="title"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:ellipsize="end"
+        android:lineSpacingExtra="1.0dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_title"
+        android:layout_toLeftOf="@id/imv_image"
+        android:layout_above="@+id/tv_pubDate"
+        android:text="descripiton"/>
+
+    <TextView
+        android:textColor="#144D53"
+        android:textSize="12sp"
+        android:id="@+id/tv_pubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imv_image"
+        android:layout_alignParentLeft="true"
+        android:text="Pubdate"/>
+  </RelativeLayout>
+  /
+</android.support.v7.widget.CardView>

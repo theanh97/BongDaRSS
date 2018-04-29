@@ -1,0 +1,32 @@
+<resources>
+  <string name="app_name">TinTucBongDa</string>
+  <array name="news_title">
+    <item>Trang Chủ</item>
+    <item>Chuyển Nhượng</item>
+    <item>Bóng Đá Anh</item>
+    <item>Champion League</item>
+    <item>World Cup</item>
+    <item>Bóng Đá Tây Ban Nha</item>
+    <item>Bóng Đá Đức</item>
+  </array>
+
+  <array name="news_url">
+    <item>http://www.bongda.com.vn/feed.rss</item>
+    <item>http://www.bongda.com.vn/tin-chuyen-nhuong.rss</item>
+    <item>http://www.bongda.com.vn/bong-da-anh.rss</item>
+    <item>http://www.bongda.com.vn/champions-league.rss</item>
+    <item>http://www.bongda.com.vn/world-cup.rss</item>
+    <item>http://www.bongda.com.vn/bong-da-tbn.rss</item>
+    <item>http://www.bongda.com.vn/bong-da-duc.rss</item>
+  </array>
+
+
+  <string name="about">
+    Đề tài thực hiện : Ứng dụng đọc báo thông qua RSS
+    Sinh viên thực hiện :
+        + Phạm Thế Anh - 15110009
+        + Lê Quang Sơn - 15110010
+    Miêu tả : Ứng dụng đọc tin tức về bóng đá có nguồn từ page Bongda.com.vn
+    Version : 1.0
+  </string>
+</resources>
